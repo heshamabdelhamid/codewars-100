@@ -1,6 +1,6 @@
 <?php
 
-function positive_sum($numbers)
+function positiveSum($numbers)
 {
     $sum = 0;
 
@@ -14,7 +14,7 @@ function positive_sum($numbers)
 }
 
 // another solution
-// function positive_sum($number)
+// function positiveSum($number)
 // {
 //     return array_sum(array_filter($number, function ($number) {
 //         return $number > 0;
@@ -22,4 +22,4 @@ function positive_sum($numbers)
 // }
 
 
-var_dump(positive_sum([-1, 2, 3, -3]));
+var_dump(positiveSum([-1, 2, 3, -3]));

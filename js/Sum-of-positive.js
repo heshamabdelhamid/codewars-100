@@ -1,5 +1,5 @@
 
-function positive_sum(numbers) {
+function positiveSum(numbers) {
 
     sum = 0;
 
@@ -13,5 +13,5 @@ function positive_sum(numbers) {
 
 }
 
-console.log(positive_sum([1, 2 - 3, 0, 25]));
+console.log(positiveSum([1, 2 - 3, 0, 25]));
 
